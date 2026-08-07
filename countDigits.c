@@ -25,7 +25,7 @@ int main()
     int num, result;
 
     printf("Enter a number: ");
-    scanf("%d", &num);
+    scanf("%d", &num); 
 
     result = countDigits(num);
 
