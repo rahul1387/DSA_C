@@ -5,7 +5,7 @@ int countDigits(int num)
     int original, count = 0, digit;
     original = num;
 
-    while (num != 0)
+    while (num != 0) 
     { 
         digit = num % 10;
 
