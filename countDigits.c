@@ -11,7 +11,7 @@ int countDigits(int num)
 
         if (digit != 0 && original % digit == 0) 
         { 
-            count++;
+            count++; 
         }
 
         num = num / 10;
