@@ -14,7 +14,7 @@ int countDigits(int num)
             count++;
         } 
 
-        num = num / 10;
+        num = num / 10; 
     }
  
     return count; 
