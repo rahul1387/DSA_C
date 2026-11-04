@@ -13,7 +13,7 @@ int countDigits(int num)
         {  
             count++;  
         } 
-
+ 
         num = num / 10; 
     } 
   
