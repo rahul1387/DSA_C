@@ -5,11 +5,11 @@ int countDigits(int num)
     int original, count = 0, digit; 
     original = num;
  
-    while (num != 0)  
+    while (num != 0)
     {
-        digit = num % 10; 
+        digit = num % 10;
    
-        if (digit != 0 && original % digit == 0) 
+        if (digit != 0 && original % digit == 0)
         {  
             count++;
         }
